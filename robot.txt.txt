@@ -1,0 +1,6 @@
+# Welcome to Keen Tour and Travels Robots File
+User-agent: *
+Allow: /
+
+# This link tells Google where to find your map
+Sitemap: https://yourusername.github.io/keen-travels/sitemap.xml
