@@ -8,11 +8,11 @@
     <meta name="description" content="Experience the beauty of Kashmir with Keen Tour and Travels. We provide the best houseboats, trekking, and tour packages in Srinagar, Gulmarg, and Pahalgam.">
     
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap');
-        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+        body { font-family: 'Plus Jakarta Sans', sans-serif; scroll-behavior: smooth; }
         .glass { background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.2); }
         .hero-gradient { background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.7)); }
     </style>
@@ -25,13 +25,9 @@
             <div class="hidden md:flex space-x-8 font-medium">
                 <a href="#" class="hover:text-emerald-400 transition">Home</a>
                 <a href="#packages" class="hover:text-emerald-400 transition">Packages</a>
-                <a href="#about" class="hover:text-emerald-400 transition">About Kashmir</a>
                 <a href="#contact" class="hover:text-emerald-400 transition">Contact</a>
             </div>
-           <a href="https://wa.me/919906518644?text=i%20wanna%20book%20the%20tour" 
-   class="bg-emerald-500 hover:bg-emerald-600 px-5 py-2 rounded-xl font-bold transition shadow-lg shadow-emerald-500/30">
-   Book Now
-</a>
+            <a href="https://wa.me/919906518644?text=i%20wanna%20book%20the%20tour" class="bg-emerald-500 hover:bg-emerald-600 px-5 py-2 rounded-xl font-bold transition shadow-lg shadow-emerald-500/30">Book Now</a>
         </div>
     </nav>
 
@@ -43,33 +39,29 @@
             <h1 class="text-5xl md:text-8xl font-extrabold text-white mb-6 leading-tight">Explore the Soul <br>of Kashmir</h1>
             <p class="text-xl text-gray-200 max-w-2xl mx-auto mb-10">Premium travel experiences tailored for you. From serene Dal Lake houseboats to the snowy peaks of Gulmarg.</p>
             <div class="flex flex-col md:flex-row gap-4 justify-center">
-                <button class="bg-white text-slate-900 px-8 py-4 rounded-2xl font-bold text-lg hover:bg-emerald-50 transition">View All Packages</button>
-                <button class="glass text-white px-8 py-4 rounded-2xl font-bold text-lg hover:bg-white/20 transition">Watch Video Guide</button>
+                <a href="https://wa.me/919906518644?text=i%20wanna%20book%20the%20tour" class="bg-white text-slate-900 px-8 py-4 rounded-2xl font-bold text-lg hover:bg-emerald-50 transition text-center">Book Your Trip</a>
+                <a href="#packages" class="glass text-white px-8 py-4 rounded-2xl font-bold text-lg hover:bg-white/20 transition text-center">View Packages</a>
             </div>
         </div>
     </section>
 
     <section id="packages" class="py-24 max-w-7xl mx-auto px-6">
-        <div class="flex justify-between items-end mb-12">
-            <div>
-                <h2 class="text-4xl font-extrabold mb-2">Our Best Packages</h2>
-                <p class="text-slate-500">Handpicked destinations across Jammu & Kashmir</p>
-            </div>
-            <a href="#" class="text-emerald-600 font-bold hover:underline hidden md:block">View all destinations →</a>
+        <div class="mb-12">
+            <h2 class="text-4xl font-extrabold mb-2">Our Best Packages</h2>
+            <p class="text-slate-500">Handpicked destinations across Jammu & Kashmir</p>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div class="group bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-2xl transition duration-500 border border-slate-100">
                 <div class="relative h-64 overflow-hidden">
                     <img src="https://images.unsplash.com/photo-1596237563267-84ffd99c82e1?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" alt="Gulmarg">
-                    <div class="absolute top-4 left-4 bg-white/90 backdrop-blur px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider">Adventure</div>
                 </div>
                 <div class="p-6">
                     <h3 class="text-2xl font-bold mb-2">Gulmarg Ski Resort</h3>
-                    <p class="text-slate-500 mb-6 italic">Experience the world's second highest Gondola ride.</p>
+                    <p class="text-slate-500 mb-6 italic">World's second highest Gondola ride.</p>
                     <div class="flex justify-between items-center border-t pt-4">
-                        <span class="text-emerald-600 font-bold text-xl">₹12,500 <span class="text-xs text-slate-400 font-normal">/ person</span></span>
-                        <button class="bg-slate-900 text-white p-3 rounded-xl hover:bg-emerald-600 transition"><i class="fas fa-arrow-right"></i></button>
+                        <span class="text-emerald-600 font-bold text-xl">₹12,500</span>
+                        <a href="https://wa.me/919906518644?text=i%20wanna%20book%20the%20Gulmarg%20Ski%20Package" class="bg-slate-900 text-white px-4 py-2 rounded-xl hover:bg-emerald-600 transition font-bold">Book</a>
                     </div>
                 </div>
             </div>
@@ -77,14 +69,13 @@
             <div class="group bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-2xl transition duration-500 border border-slate-100">
                 <div class="relative h-64 overflow-hidden">
                     <img src="https://images.unsplash.com/photo-1598091383021-15ddea10925d?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" alt="Srinagar">
-                    <div class="absolute top-4 left-4 bg-white/90 backdrop-blur px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider">Luxury</div>
                 </div>
                 <div class="p-6">
                     <h3 class="text-2xl font-bold mb-2">Dal Lake Houseboat</h3>
-                    <p class="text-slate-500 mb-6 italic">Romantic Shikara rides and heritage houseboat stays.</p>
+                    <p class="text-slate-500 mb-6 italic">Romantic Shikara rides and heritage stays.</p>
                     <div class="flex justify-between items-center border-t pt-4">
-                        <span class="text-emerald-600 font-bold text-xl">₹8,000 <span class="text-xs text-slate-400 font-normal">/ person</span></span>
-                        <button class="bg-slate-900 text-white p-3 rounded-xl hover:bg-emerald-600 transition"><i class="fas fa-arrow-right"></i></button>
+                        <span class="text-emerald-600 font-bold text-xl">₹8,000</span>
+                        <a href="https://wa.me/919906518644?text=i%20wanna%20book%20the%20Dal%20Lake%20Houseboat%20Package" class="bg-slate-900 text-white px-4 py-2 rounded-xl hover:bg-emerald-600 transition font-bold">Book</a>
                     </div>
                 </div>
             </div>
@@ -92,14 +83,13 @@
             <div class="group bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-2xl transition duration-500 border border-slate-100">
                 <div class="relative h-64 overflow-hidden">
                     <img src="https://images.unsplash.com/photo-1610473204005-728638101685?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" alt="Pahalgam">
-                    <div class="absolute top-4 left-4 bg-white/90 backdrop-blur px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider">Nature</div>
                 </div>
                 <div class="p-6">
                     <h3 class="text-2xl font-bold mb-2">Pahalgam Valley</h3>
-                    <p class="text-slate-500 mb-6 italic">Walk through the lush green Lidder Valley and pine forests.</p>
+                    <p class="text-slate-500 mb-6 italic">Nature walks and pine forest trekking.</p>
                     <div class="flex justify-between items-center border-t pt-4">
-                        <span class="text-emerald-600 font-bold text-xl">₹10,200 <span class="text-xs text-slate-400 font-normal">/ person</span></span>
-                        <button class="bg-slate-900 text-white p-3 rounded-xl hover:bg-emerald-600 transition"><i class="fas fa-arrow-right"></i></button>
+                        <span class="text-emerald-600 font-bold text-xl">₹10,200</span>
+                        <a href="https://wa.me/919906518644?text=i%20wanna%20book%20the%20Pahalgam%20Valley%20Package" class="bg-slate-900 text-white px-4 py-2 rounded-xl hover:bg-emerald-600 transition font-bold">Book</a>
                     </div>
                 </div>
             </div>
@@ -107,33 +97,23 @@
     </section>
 
     <footer id="contact" class="bg-slate-900 text-white py-20 px-6">
-        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12 text-center md:text-left">
             <div class="col-span-1 md:col-span-2">
                 <div class="text-3xl font-extrabold italic mb-6">KEEN<span class="text-emerald-400 font-light">TRAVELS</span></div>
-                <p class="text-slate-400 max-w-sm mb-6">The most trusted travel partner in Kashmir. We focus on providing authentic local experiences with premium comfort.</p>
-                <div class="flex space-x-4">
-                    <a href="#" class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-emerald-500 transition"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#" class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-emerald-500 transition"><i class="fab fa-instagram"></i></a>
-                </div>
-            </div>
-            <div>
-                <h4 class="font-bold mb-6">Quick Links</h4>
-                <ul class="space-y-4 text-slate-400">
-                    <li><a href="#" class="hover:text-emerald-400">Srinagar Packages</a></li>
-                    <li><a href="#" class="hover:text-emerald-400">Trekking Tours</a></li>
-                    <li><a href="#" class="hover:text-emerald-400">Winter Specials</a></li>
-                    <li><a href="#" class="hover:text-emerald-400">Honeymoon Deals</a></li>
-                </ul>
+                <p class="text-slate-400 max-w-sm mx-auto md:mx-0 mb-6">The most trusted travel partner in Kashmir. Authentic local experiences with premium comfort.</p>
             </div>
             <div>
                 <h4 class="font-bold mb-6">Contact Us</h4>
                 <p class="text-slate-400 mb-4">Srinagar, Jammu & Kashmir</p>
-                <p class="text-slate-400 mb-4">+91 12345 67890</p>
-                <p class="text-emerald-400 font-bold">info@keentravels.com</p>
+                <p class="text-slate-400 mb-4">+91 99065 18644</p>
+            </div>
+            <div>
+                <h4 class="font-bold mb-6">Get In Touch</h4>
+                <a href="https://wa.me/919906518644?text=Hello%20Keen%20Travels" class="text-emerald-400 font-bold text-xl">Chat on WhatsApp →</a>
             </div>
         </div>
         <div class="max-w-7xl mx-auto border-t border-slate-800 mt-16 pt-8 text-center text-slate-500 text-sm">
-            © 2026 Keen Tour and Travels. All rights reserved. Designed for Kashmir Tourism.
+            © 2026 Keen Tour and Travels. All rights reserved.
         </div>
     </footer>
 
